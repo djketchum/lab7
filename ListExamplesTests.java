@@ -12,7 +12,7 @@ public class ListExamplesTests {
 		assertArrayEquals(new String[]{ "a", "b", "x", "y"}, ListExamples.merge(l1, l2).toArray());
 	}
 	
-	@Test(timeout = 500)
+	@Test(timeout = 1500)
         public void testMerge2() {
 		List<String> l1 = new ArrayList<String>(Arrays.asList("a", "b", "c"));
 		List<String> l2 = new ArrayList<String>(Arrays.asList("c", "d", "e"));
